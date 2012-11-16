@@ -1,10 +1,9 @@
 # streams2
 
-Wrap a 0.8 stream into a streams2 stream
-
+gi
 ## Example
 
-```
+```js
 var fs = require("fs")
     , read = fs.createReadStream
     , write = fs.createWriteStream
