@@ -1,0 +1,35 @@
+{
+  "name": "streams2",
+  "version": "0.1.0",
+  "description": "Wrap a 0.8 stream into a streams2 stream",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/streams2.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/streams2",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/streams2/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "re-emitter": "~0.2.0",
+    "read-write-stream": "~0.1.4"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/streams2/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "tap --stderr --tap ./test"
+  }
+}
