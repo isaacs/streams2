@@ -1,6 +1,9 @@
 # streams2
 
-gi
+Turn a node 0.8 stream into a node 0.10 stream
+  
+Its useful because streams2 buffer internally, so you no longer need pause-stream
+
 ## Example
 
 ```js
