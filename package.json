@@ -1,6 +1,6 @@
 {
   "name": "streams2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrap a 0.8 stream into a streams2 stream",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
