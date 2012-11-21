@@ -13,6 +13,12 @@ function wrap(stream) {
 
     reemit(stream, result, ["error", "drain"])
 
+    for (var key in stream) {
+        if (!result[key] && typeof stream[key] === "function") {
+            result[key] = stream[key].bind(stream)
+        }
+    }
+
     return result
 
     function write(chunk) {
